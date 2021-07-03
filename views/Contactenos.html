@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/style.css">
+	<!--Fuentes-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Roboto:wght@100&family=Staatliches&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+</head>
+<body>
+	<div id="contacto">
+		<header class="border">
+			<a href="../index.html"><div>Inicio</div></a>
+			<a href="../views/Productos.html"><div>Productos</div></a>
+		</header>
+
+		<section class="border" id="formulario">
+			<h1>
+				Contáctenos
+			</h1>
+			<main>
+				<form action="enviar.php" method="POST" enctype="multipart/form-data">
+						<br>
+						<br>
+						<label for="nombreyapellido">Nombre y Apellido</label>
+						<input type="text" name="nombreyapellido" maxlength="100">
+						<br>
+						<br>
+						<label for="email">Correo electrónico</label>
+						<input type="text" name="email" maxlength="100">
+						<br>
+						<br>
+						<textarea placeholder="¿En que lo podemos ayudar?" name="mensaje" id="" cols="30" rows="10"></textarea>
+						<br>
+						<h5>Selecciona el producto de tu interés</h5>
+						<select name="Productointeres">
+							<option value="Ferreteria">Ninguno</option>
+							<option value="Ferreteria">Productos de Ferreteria Industrial</option>
+							<option value="Herramientas">Herramientas</option>
+							<option value="Construccion">Materiales de construcción</option>
+							<option value="SegIndustrial">Seguridad Industrial</option>
+							<option value="SistemasIluminacion">Sistemas de Iluminación</option>
+						</select>
+						<br>
+						<br>
+						<h5>¿Desea recibir nuestro Newsletter?</h5>
+							<label>Si</label>
+							<input type="radio" name="newsletter" value="si">
+							<label>No</label>
+							<input type="radio" name="newsletter" value="no">
+						<br>
+						<br>
+							<div> Acepto términos y condiciones</div>
+							<input type="checkbox" name="Terminosycondiciones" value="1">
+						<br>
+						<br>
+						<input type="submit" name="submit" value="Enviar">
+						<input type="reset" name="reset" value="Limpiar">
+						<br>
+						<br>
+				</form>
+			</main>
+		</section>
+
+		<section class="border" id="img-one" >
+			<img src="../img/contacto1.jpg">
+		</section>
+
+		<section class="border" id="img-two" >
+			<img src="../img/contacto2.jpg">
+		</section>
+
+		<section class="border" id="img-three" >
+			<img src="../img/contacto3.jpg">
+
+	</div>
+</body>
+</html>
