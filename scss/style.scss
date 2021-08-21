@@ -1,3 +1,5 @@
+@import "variables";
+
 body{
     background-color: #2B2840;
     color:#EFF2D8;
@@ -7,6 +9,7 @@ body{
     background-image:url(../img/fondo2.jpg);
     height: 440px;
 }
+
 .nosotros {
     text-align: center;
     color: #C6D984;
@@ -77,6 +80,13 @@ body{
                 padding-top: 10px;
                 padding: 10px;
                 }
+            
+            p{
+                    font-size: 23px;
+                    margin-top: 10px;
+                    font-family: 'Roboto', sans-serif;
+                    }
+                
             }
 
  footer{

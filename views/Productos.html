@@ -9,62 +9,904 @@
 	<!--Fuentes y Estilos-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Roboto:wght@100&family=Staatliches&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-	<div id="products">
-		<header class="border">
-			<h1>Nuestros productos</h1>
-		</header>
-
-	<!--Productos-->
-		<section class="border" id="ferreteria">
-			<div class="item">Brocas</div>
-			<div class="item">Abrasivos</div>
-			<div class="item">Escaleras</div>
-			<div class="item">Cintas</div>
-			<div class="item">Elementos de fijación</div>
-		</section>
-
-		<section class="border" id="herramientas" >
-			<div class="item">No Eléctricas</div>
-			<div class="item">Eléctricas</div>
-			<div class="item">Neumáticas</div>
-			<div class="item">Medición y precisión</div>
-		</section>
-
-		<section class="border" id="iluminacion" >
-			<div class="item">Interior</div>
-			<div class="item">Exterior</div>
-		</section>
-
-		<section class="border" id="construccion" >
-			<div class="item">Arenas</div>
-			<div class="item">Obra Gris</div>
-			<div class="item">Terminado</div>
-			<div class="item">Hierro</div>
-			<div class="item">Drywall</div>
-		</section>
+	
+	<div class="container">
+		<h4>Productos</h4>
 		
-		<section class="border" id="otros" >
-			<a href="../views/Equipos.html"><div class="item">Equipos</div></a>
-			<a href="../views/SeguridadIndustrial.html"><div class="item">Seguridad Industrual</div></a>
-			<a href="../views/FGL.html"><div class="item">Filtros, Grasas y Lubricantes</div></a>
-		</section>
+		<ul class="nav nav-tabs">
+		  <li class="active"><a data-toggle="tab" href="#link1">Ferretería Industrial</a></li>
+		  <li><a data-toggle="tab" href="#link2">Herramientas</a></li>
+		  <li><a data-toggle="tab" href="#link3">Materiales de Construcción</a></li>
+		  <li><a data-toggle="tab" href="#link4">Seguridad Industrial</a></li>
+		  <li><a data-toggle="tab" href="#link5">Filtros, grasas y lubricantes</a></li>
+		  <li><a data-toggle="tab" href="#link6">Sistemas de Iluminación</a></li>
+		  <li><a data-toggle="tab" href="#link7">Equipos</a></li>
+		</ul>
+	  
+		<div class="tab-content">
+		  <div id="link1" class="tab-pane fade in active">
+			  <section class="store">
+				  <div class="container">
+					  <div class="items">
+		  
+						  <div class="row">
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Set 15 brocas HSS</h3>
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">30.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Set 13 brocas Cobalto</h3>
+		  
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">180.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Brocas especiales</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		  
+									<div class="item-details">
+										<h4 class="item-price">70.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Accesorios brocas</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		  
+								  <div class="item-details">
+									  <h4 class="item-price">50.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						   </div>
+						  </div>
+		  
+						  <div class="row">
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Lijas</h3>
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">20.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Discos de corte</h3>
+		  
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">55.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Discos de trozado</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		  
+									<div class="item-details">
+										<h4 class="item-price">180.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Ruedas de esmeril</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		  
+								  <div class="item-details">
+									  <h4 class="item-price">90.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						   </div>
+						  </div>
+		  
+						  <div class="row">
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Discos diamantados</h3>
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">120.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Escaleras FDB</h3>
+		  
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">120.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Escaleras en aluminio</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		  
+									<div class="item-details">
+										<h4 class="item-price">95.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Plataformas</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		  
+								  <div class="item-details">
+									  <h4 class="item-price">135.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						   </div>
+						  </div>
+		  
+						  <div class="row">
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Cintas eléctricas</h3>
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">43.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Cintas de empaque</h3>
+		  
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">32.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Cintas de enmascarar</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		  
+									<div class="item-details">
+										<h4 class="item-price">25.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Arandelas</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		  
+								  <div class="item-details">
+									  <h4 class="item-price">143.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						   </div>
+						  </div>
+		  
+						  <div class="row">
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Esparragos</h3>
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">155.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								  <div class="item shadow mb-4">
+									  <h3 class="item-title">Pernos</h3>
+		  
+									  <img class="item-image" src="../img/product1.jpg">
+		  
+									  <div class="item-details">
+										  <h4 class="item-price">53.000 COP</h4>
+										  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									  </div>
+								  </div>
+							  </div>
+							  <div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Tuercas</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		  
+									<div class="item-details">
+										<h4 class="item-price">98.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Bridas y abrazaderas</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		  
+								  <div class="item-details">
+									  <h4 class="item-price">145.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						   </div>
+						  </div>
+					  </div>
+				  </div>
+			  </section>
+		  </div>
+	  
+		  <div id="link2" class="tab-pane fade">
+			<section class="store">
+			  <div class="container">
+				  <div class="items">
+	  
+					  <div class="row">
+						  <div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Htas de perforación</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+	  
+								  <div class="item-details">
+									  <h4 class="item-price">30.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Htas para demolición</h3>
+	  
+								  <img class="item-image" src="../img/product1.jpg">
+	  
+								  <div class="item-details">
+									  <h4 class="item-price">180.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Htas para madera</h3>
+								<img class="item-image" src="../img/product1.jpg">
+	  
+								<div class="item-details">
+									<h4 class="item-price">70.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-3">
+						  <div class="item shadow mb-4">
+							  <h3 class="item-title">Htas de impacto</h3>
+							  <img class="item-image" src="../img/product1.jpg">
+	  
+							  <div class="item-details">
+								  <h4 class="item-price">50.000 COP</h4>
+								  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+							  </div>
+						  </div>
+					   </div>
+					  </div>
+	  
+					  <div class="row">
+						  <div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Htas de pulido</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+	  
+								  <div class="item-details">
+									  <h4 class="item-price">20.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Htas de fijación</h3>
+	  
+								  <img class="item-image" src="../img/product1.jpg">
+	  
+								  <div class="item-details">
+									  <h4 class="item-price">55.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Htas de perforación</h3>
+								<img class="item-image" src="../img/product1.jpg">
+	  
+								<div class="item-details">
+									<h4 class="item-price">180.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-3">
+						  <div class="item shadow mb-4">
+							  <h3 class="item-title">Htas de corte</h3>
+							  <img class="item-image" src="../img/product1.jpg">
+	  
+							  <div class="item-details">
+								  <h4 class="item-price">90.000 COP</h4>
+								  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+							  </div>
+						  </div>
+					   </div>
+					  </div>
+	  
+					  <div class="row">
+						  <div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Indicadores mecánicos</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+	  
+								  <div class="item-details">
+									  <h4 class="item-price">120.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Htas termográficas</h3>
+	  
+								  <img class="item-image" src="../img/product1.jpg">
+	  
+								  <div class="item-details">
+									  <h4 class="item-price">120.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Indicadores mecánicos</h3>
+								<img class="item-image" src="../img/product1.jpg">
+	  
+								<div class="item-details">
+									<h4 class="item-price">95.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-3">
+						  <div class="item shadow mb-4">
+							  <h3 class="item-title">Indicadores digitales</h3>
+							  <img class="item-image" src="../img/product1.jpg">
+	  
+							  <div class="item-details">
+								  <h4 class="item-price">135.000 COP</h4>
+								  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+							  </div>
+						  </div>
+					   </div>
+					  </div>
+				  </div>
+			  </div>
+		  </section>
+		  </div>
+	  
+		  <div id="link3" class="tab-pane fade">
+			<section class="store">
+				<div class="container">
+					<div class="items">
 		
-	<!--Menu de Navegación-->
-		<nav class="border">Navegacion
-			<a href="../index.html"><div>Volver al inicio</div></a>
-			<a href="Contactenos.html"><div>Contáctenos</div></a>
-		</nav>
-
-	<!--Footer-->
-		<div class="border" id="footerproductos">
-			<p>2021 © CEAR– Todos los derechos reservados</p>
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Arena de peña</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">30.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Arena de pozo</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">180.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Mixto</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">70.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Gravilla</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">50.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+		
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Cementos</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">20.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Concretos</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">55.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Ladrillos</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">180.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Bloques</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">90.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+		
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Estucos</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">120.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Yesos</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">120.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Pinturas</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">95.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Varillas</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">135.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		  </div>
+	  
+		  <div id="link4" class="tab-pane fade">
+			<section class="store">
+				<div class="container">
+					<div class="items">
+		
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Protección respiratoria</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">30.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Protección auditiva</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">180.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Protección visual</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">70.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Protección de cabeza y rostro</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">50.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</div>
 
-   </div>
-   
+		<div id="link5" class="tab-pane fade">
+			<section class="store">
+				<div class="container">
+					<div class="items">
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Filtro de combustilbe</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">20.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Filtros hidraulicos</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">55.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Filtros de aire</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">180.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Filtros de aceite</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">90.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Grasas de uso general</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">30.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Grasas de alta temperatura</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">180.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Grasas de baja temperatura</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">70.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Grasas biodegradables</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">50.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div id="link6" class="tab-pane fade">
+			<section class="store">
+				<div class="container">
+					<div class="items">
+		
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Equipos Fluorecentes</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">30.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Linternas</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">180.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Lamparas</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">70.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Equipos alógenos</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">50.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div id="link7" class="tab-pane fade">
+			<section class="store">
+				<div class="container">
+					<div class="items">
+		
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Equipos MIG</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">30.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Equipos TIG</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">180.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Convencionales</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">70.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Motobombas a gasolina</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">50.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+		
+						<div class="row">
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Motobombas diesel</h3>
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">20.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="item shadow mb-4">
+									<h3 class="item-title">Compresores</h3>
+		
+									<img class="item-image" src="../img/product1.jpg">
+		
+									<div class="item-details">
+										<h4 class="item-price">55.000 COP</h4>
+										<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+							  <div class="item shadow mb-4">
+								  <h3 class="item-title">Plantas eléctricas a gasolina</h3>
+								  <img class="item-image" src="../img/product1.jpg">
+		
+								  <div class="item-details">
+									  <h4 class="item-price">180.000 COP</h4>
+									  <button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								  </div>
+							  </div>
+						  </div>
+						  <div class="col-12 col-md-3">
+							<div class="item shadow mb-4">
+								<h3 class="item-title">Plantas eléctricas diesel</h3>
+								<img class="item-image" src="../img/product1.jpg">
+		
+								<div class="item-details">
+									<h4 class="item-price">90.000 COP</h4>
+									<button class="item-button btn btn-primary addToCart">Añadir al carrito</button>
+								</div>
+							</div>
+						 </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	  </div>
 </body>
 </html>

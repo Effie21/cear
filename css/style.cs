@@ -70,11 +70,6 @@ body {
   padding-top: 10px;
   padding: 10px;
 }
-.contenido p {
-  font-size: 23px;
-  margin-top: 10px;
-  font-family: "Roboto", sans-serif;
-}
 
 footer {
   background-color: #9DBF21;
@@ -388,4 +383,4 @@ h2.product-description {
   color: #252359;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */
